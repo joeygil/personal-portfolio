@@ -38,14 +38,6 @@ const sendEmail = (e) => {
               <input type="email" name="from_email" placeholder="email" required />
             </li>
             <li>
-              <input
-                placeholder="subject"
-                type="text"
-                name="subject"
-                required
-              />
-            </li>
-            <li>
               <textarea
                 placeholder="message"
                 name="message"
