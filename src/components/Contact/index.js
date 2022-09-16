@@ -19,7 +19,7 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={'Contact Me'.split('')}
+              strArray={'Contact'.split('')}
               idx="15"
             />
           </h1>
