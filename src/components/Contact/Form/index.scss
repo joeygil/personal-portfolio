@@ -1,59 +1,67 @@
 .contact-form {
-    width: 100%;
-    margin-top: 5px;
+  width: 100%;
+  margin-top: 5px;
 
-    ul {
-        padding: 0;
-        margin-left: 15%;
+  ul {
+    padding: 0;
+    margin-left: 15%;
 
-
-        li {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            margin-bottom: 10px;
-            overflow: hidden;
-            display: block;
-            position: relative;
-            opacity: 0;
-            animation: fadeInUp 2s 2s;
-            animation-fill-mode: forwards;
-            clear: both;
-        }   
+    li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow: hidden;
+      display: block;
+      position: relative;
+      opacity: 0;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode: forwards;
+      clear: both;
     }
+  }
 
-    input[type='text'],
-    input[type='email'] {
-        width: 50%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
+  input[type='text'],
+  input[type='email'] {
+    width: 50%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 
-    textarea {
-        width: 50%;
-        border: 0;
-        background: #115173;
-        height: 50px;
-        font-size: 16px;
-        color: #fff;
-        padding: 20px;
-        min-height: 150px;
-        box-sizing: border-box;
-    }
+  textarea {
+    width: 50%;
+    border: 0;
+    background: #115173;
+    height: 50px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing: border-box;
+  }
 
-    .flat-button {
-        color: #ffd700;
-        background: 0 0;
-        font-size: 11px;
-        letter-spacing: 3px;
-        text-decoration: none;
-        padding: 8px 10px;
-        border: 1px solid #ffd700;
-        border-radius: 4px;
-    }
+  .flat-button {
+    color: #ffd700;
+    background: 0 0;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid #ffd700;
+    border-radius: 4px;
+  }
+
+  .flat-button:hover {
+    background-color: #ffd700;
+    color: #fff;
+  }
+
+  .flat-button:active {
+    background-color: #fff;
+  }
 }
